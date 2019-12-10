@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69E0987D2CC003DF208ED8E9DD26C946 /* ABTicketView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C6643E4234CE01D01D4765BD861FCDE /* ABTicketView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FF4FC0CCBBEBF74E0033F7A1463747E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		81DDFD6C1DAA99EAF394EAD3FF80F3F0 /* ABTicketView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D48CDCED50ECE035BF8FC11409F6E946 /* ABTicketView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A7C653B89370C322F784A4D06A8BE04 /* ABTicketView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E7F139F99479694F593677DF017B69 /* ABTicketView-dummy.m */; };
+		B09D3EC804A0024CC5BE07847C766BEC /* Pods-SwarajyaAssignment-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6787A73E2B48BCFDE5844EE6AA3CE6E0 /* Pods-SwarajyaAssignment-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E62C5C1E0E704100269BF52201005AC7 /* ABTicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A87BA1AE7B0424E0C8BC9449C0F9535 /* ABTicketView.swift */; };
+		E7EDE1C37C16C7372225970F9D48BA89 /* Pods-SwarajyaAssignment-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3A8A618A6EA063C4F0F76D781C6847 /* Pods-SwarajyaAssignment-dummy.m */; };
+		EF6C1B77E2872F1708E52E7589B2A82F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8A49B1F16F8B4FF8DD25CC540F5EB14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D763FF729C3AAA133B8A2195F0791470;
+			remoteInfo = ABTicketView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		316DD823F154D25035065B38C8AF575A /* Pods-SwarajyaAssignment-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwarajyaAssignment-acknowledgements.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3A9CA4453D995F297683281FBD4EBD7E /* Pods-SwarajyaAssignment-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwarajyaAssignment-frameworks.sh"; sourceTree = "<group>"; };
+		4225222E4400ECC23288E8F20C074C36 /* ABTicketView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ABTicketView.framework; path = ABTicketView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C6643E4234CE01D01D4765BD861FCDE /* ABTicketView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABTicketView.h; path = ABTicketView/ABTicketView.h; sourceTree = "<group>"; };
+		60556552A7FF7D7948C910B84D949602 /* Pods-SwarajyaAssignment-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwarajyaAssignment-Info.plist"; sourceTree = "<group>"; };
+		6787A73E2B48BCFDE5844EE6AA3CE6E0 /* Pods-SwarajyaAssignment-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwarajyaAssignment-umbrella.h"; sourceTree = "<group>"; };
+		6812CC9D29B473484D0A091FAF00D2E3 /* Pods-SwarajyaAssignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwarajyaAssignment.release.xcconfig"; sourceTree = "<group>"; };
+		71CC398E2CA7B69D024D65A01B3B9059 /* Pods-SwarajyaAssignment.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwarajyaAssignment.modulemap"; sourceTree = "<group>"; };
+		8A87BA1AE7B0424E0C8BC9449C0F9535 /* ABTicketView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ABTicketView.swift; path = ABTicketView/ABTicketView.swift; sourceTree = "<group>"; };
+		9C3A8A618A6EA063C4F0F76D781C6847 /* Pods-SwarajyaAssignment-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwarajyaAssignment-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BA4DEAA086C74B23FCA973284DBA8CF4 /* ABTicketView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ABTicketView.xcconfig; sourceTree = "<group>"; };
+		D039A439EA9D82E8968772D7366E2533 /* Pods_SwarajyaAssignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwarajyaAssignment.framework; path = "Pods-SwarajyaAssignment.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D48CDCED50ECE035BF8FC11409F6E946 /* ABTicketView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ABTicketView-umbrella.h"; sourceTree = "<group>"; };
+		DDA2B9D5A242CF7E0A8AB89D37BAE929 /* ABTicketView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ABTicketView.modulemap; sourceTree = "<group>"; };
+		DF5F5E89F98A36C893C34F37DB91520E /* Pods-SwarajyaAssignment-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwarajyaAssignment-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E256DD39A7D13F0748F13611E52F8331 /* ABTicketView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ABTicketView-prefix.pch"; sourceTree = "<group>"; };
+		EB9E15B079317FC8D5F6AA468D0725A1 /* ABTicketView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ABTicketView-Info.plist"; sourceTree = "<group>"; };
+		F3E7F139F99479694F593677DF017B69 /* ABTicketView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ABTicketView-dummy.m"; sourceTree = "<group>"; };
+		FEFA2BB68706563CC65532A2C4A87D94 /* Pods-SwarajyaAssignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwarajyaAssignment.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A69CAA2BCF466A7A04751B5EE34F9DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF6C1B77E2872F1708E52E7589B2A82F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		699501ED7E0CBE00E56531B1A7951852 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FF4FC0CCBBEBF74E0033F7A1463747E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1128F750A4D5575856A72C48A6CA4818 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4225222E4400ECC23288E8F20C074C36 /* ABTicketView.framework */,
+				D039A439EA9D82E8968772D7366E2533 /* Pods_SwarajyaAssignment.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17397F948EC168062D4FA25F5C380290 /* Pods-SwarajyaAssignment */ = {
+			isa = PBXGroup;
+			children = (
+				71CC398E2CA7B69D024D65A01B3B9059 /* Pods-SwarajyaAssignment.modulemap */,
+				DF5F5E89F98A36C893C34F37DB91520E /* Pods-SwarajyaAssignment-acknowledgements.markdown */,
+				316DD823F154D25035065B38C8AF575A /* Pods-SwarajyaAssignment-acknowledgements.plist */,
+				9C3A8A618A6EA063C4F0F76D781C6847 /* Pods-SwarajyaAssignment-dummy.m */,
+				3A9CA4453D995F297683281FBD4EBD7E /* Pods-SwarajyaAssignment-frameworks.sh */,
+				60556552A7FF7D7948C910B84D949602 /* Pods-SwarajyaAssignment-Info.plist */,
+				6787A73E2B48BCFDE5844EE6AA3CE6E0 /* Pods-SwarajyaAssignment-umbrella.h */,
+				FEFA2BB68706563CC65532A2C4A87D94 /* Pods-SwarajyaAssignment.debug.xcconfig */,
+				6812CC9D29B473484D0A091FAF00D2E3 /* Pods-SwarajyaAssignment.release.xcconfig */,
+			);
+			name = "Pods-SwarajyaAssignment";
+			path = "Target Support Files/Pods-SwarajyaAssignment";
+			sourceTree = "<group>";
+		};
+		3D51C3358355028FB0FE9493F73A0157 /* ABTicketView */ = {
+			isa = PBXGroup;
+			children = (
+				4C6643E4234CE01D01D4765BD861FCDE /* ABTicketView.h */,
+				8A87BA1AE7B0424E0C8BC9449C0F9535 /* ABTicketView.swift */,
+				A36FF3572989BF06C026F2F5857C75BC /* Support Files */,
+			);
+			name = ABTicketView;
+			path = ABTicketView;
+			sourceTree = "<group>";
+		};
+		794C40151229DC7C030DDBA0BDC8F303 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				17397F948EC168062D4FA25F5C380290 /* Pods-SwarajyaAssignment */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8BA5247723495930AC5962B728F91B37 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D51C3358355028FB0FE9493F73A0157 /* ABTicketView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A36FF3572989BF06C026F2F5857C75BC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDA2B9D5A242CF7E0A8AB89D37BAE929 /* ABTicketView.modulemap */,
+				BA4DEAA086C74B23FCA973284DBA8CF4 /* ABTicketView.xcconfig */,
+				F3E7F139F99479694F593677DF017B69 /* ABTicketView-dummy.m */,
+				EB9E15B079317FC8D5F6AA468D0725A1 /* ABTicketView-Info.plist */,
+				E256DD39A7D13F0748F13611E52F8331 /* ABTicketView-prefix.pch */,
+				D48CDCED50ECE035BF8FC11409F6E946 /* ABTicketView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ABTicketView";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				8BA5247723495930AC5962B728F91B37 /* Pods */,
+				1128F750A4D5575856A72C48A6CA4818 /* Products */,
+				794C40151229DC7C030DDBA0BDC8F303 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2553C480C5C50F08C7E486C1ABA37002 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B09D3EC804A0024CC5BE07847C766BEC /* Pods-SwarajyaAssignment-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81DD62BD809A9DF1D9610A9823B719E7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81DDFD6C1DAA99EAF394EAD3FF80F3F0 /* ABTicketView-umbrella.h in Headers */,
+				69E0987D2CC003DF208ED8E9DD26C946 /* ABTicketView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		808D2BEA14BE7A144D8927E5DFE032FD /* Pods-SwarajyaAssignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31A4C9262EF1C67B42E332A76669055C /* Build configuration list for PBXNativeTarget "Pods-SwarajyaAssignment" */;
+			buildPhases = (
+				2553C480C5C50F08C7E486C1ABA37002 /* Headers */,
+				A00752B46E34567787B934BB8B91E33D /* Sources */,
+				699501ED7E0CBE00E56531B1A7951852 /* Frameworks */,
+				201B0726E8CDC366E27FABBCCC8BD694 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				068B07B5996D4E4E29FEEFA7F4384B2A /* PBXTargetDependency */,
+			);
+			name = "Pods-SwarajyaAssignment";
+			productName = "Pods-SwarajyaAssignment";
+			productReference = D039A439EA9D82E8968772D7366E2533 /* Pods_SwarajyaAssignment.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D763FF729C3AAA133B8A2195F0791470 /* ABTicketView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D104C6EC380D4212EB3EB4CCAB95951E /* Build configuration list for PBXNativeTarget "ABTicketView" */;
+			buildPhases = (
+				81DD62BD809A9DF1D9610A9823B719E7 /* Headers */,
+				67857824D3BF7733B5D04681A8FF4819 /* Sources */,
+				5A69CAA2BCF466A7A04751B5EE34F9DC /* Frameworks */,
+				F433250AC0549B1AC4350BD24DA07C84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ABTicketView;
+			productName = ABTicketView;
+			productReference = 4225222E4400ECC23288E8F20C074C36 /* ABTicketView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1128F750A4D5575856A72C48A6CA4818 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D763FF729C3AAA133B8A2195F0791470 /* ABTicketView */,
+				808D2BEA14BE7A144D8927E5DFE032FD /* Pods-SwarajyaAssignment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		201B0726E8CDC366E27FABBCCC8BD694 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F433250AC0549B1AC4350BD24DA07C84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67857824D3BF7733B5D04681A8FF4819 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A7C653B89370C322F784A4D06A8BE04 /* ABTicketView-dummy.m in Sources */,
+				E62C5C1E0E704100269BF52201005AC7 /* ABTicketView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00752B46E34567787B934BB8B91E33D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7EDE1C37C16C7372225970F9D48BA89 /* Pods-SwarajyaAssignment-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		068B07B5996D4E4E29FEEFA7F4384B2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ABTicketView;
+			target = D763FF729C3AAA133B8A2195F0791470 /* ABTicketView */;
+			targetProxy = F8A49B1F16F8B4FF8DD25CC540F5EB14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5FA1E403E468FDD285E299861B33F319 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEFA2BB68706563CC65532A2C4A87D94 /* Pods-SwarajyaAssignment.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwarajyaAssignment/Pods-SwarajyaAssignment-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwarajyaAssignment/Pods-SwarajyaAssignment.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6410F571BA8C1AEC6A19403F1B61B0B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6634C246017232E3EE9807614D4CAFEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA4DEAA086C74B23FCA973284DBA8CF4 /* ABTicketView.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ABTicketView/ABTicketView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ABTicketView/ABTicketView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ABTicketView/ABTicketView.modulemap";
+				PRODUCT_MODULE_NAME = ABTicketView;
+				PRODUCT_NAME = ABTicketView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9C5D9DFB4477274FD3F628C30F946FC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6812CC9D29B473484D0A091FAF00D2E3 /* Pods-SwarajyaAssignment.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwarajyaAssignment/Pods-SwarajyaAssignment-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwarajyaAssignment/Pods-SwarajyaAssignment.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A27713CB74E99AF202AADC23200A32F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B1841BC678AD57FAA275C953FB8B64B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA4DEAA086C74B23FCA973284DBA8CF4 /* ABTicketView.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ABTicketView/ABTicketView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ABTicketView/ABTicketView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ABTicketView/ABTicketView.modulemap";
+				PRODUCT_MODULE_NAME = ABTicketView;
+				PRODUCT_NAME = ABTicketView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31A4C9262EF1C67B42E332A76669055C /* Build configuration list for PBXNativeTarget "Pods-SwarajyaAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FA1E403E468FDD285E299861B33F319 /* Debug */,
+				9C5D9DFB4477274FD3F628C30F946FC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6410F571BA8C1AEC6A19403F1B61B0B5 /* Debug */,
+				A27713CB74E99AF202AADC23200A32F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D104C6EC380D4212EB3EB4CCAB95951E /* Build configuration list for PBXNativeTarget "ABTicketView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6634C246017232E3EE9807614D4CAFEB /* Debug */,
+				B1841BC678AD57FAA275C953FB8B64B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

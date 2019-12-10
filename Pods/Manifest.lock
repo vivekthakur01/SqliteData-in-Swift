@@ -1,0 +1,16 @@
+PODS:
+  - ABTicketView (1.0.1)
+
+DEPENDENCIES:
+  - ABTicketView
+
+SPEC REPOS:
+  trunk:
+    - ABTicketView
+
+SPEC CHECKSUMS:
+  ABTicketView: ea7a790ff58174a577df783160813a7848fdb85c
+
+PODFILE CHECKSUM: a60bd2c5e7d07fd5f0c7713957565fa7421fe293
+
+COCOAPODS: 1.8.4
